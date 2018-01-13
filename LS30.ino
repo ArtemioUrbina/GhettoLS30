@@ -140,7 +140,8 @@ hand, always returning 0xf inbetween valid values confuses the game.
 
 void movePosition(int *rotArray, int value)
 {
-    setArrayValue(rotArray, HIGH);
+    //setArrayValue(rotArray, HIGH);
+    digitalWrite(rotArray[rotArray[ROT_POS]], HIGH);
 
     rotArray[ROT_LAST] = rotArray[ROT_POS];
     rotArray[ROT_POS] += value;
