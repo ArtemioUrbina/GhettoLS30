@@ -4,18 +4,18 @@
   a kick harness and an Arduino Mega to 
   rotate as an LS-30 via two buttons.
   
-  The third button is used constant rotation
+  The third button is used for constant rotation
   and pulse rotation (default).
 
-  The LCD shield is not mandatoiry, only used
-  fo enable and disable the protection for 
+  The LCD shield is not mandatory, it is only used
+  to enable and disable the protection for 
   Guevara/Guerilla War. This can also be changed
-  with the variable as commented at the start of
-  the code.
+  with a variable commented at the start of
+  the source code.
 
 # Features
   
-  - Supports Guerilal War protection Mode
+  - Supports Guerilla War protection Mode
   - Has variable frame delay for constant rotation
   - Low cost and no extra Control Panel for a playable experience
 
